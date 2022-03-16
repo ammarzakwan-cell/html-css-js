@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exmouth View Hotel</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<body onload="startTime()">
+
+    <div class="headermain">
+        <!--show time top right page-->
+        <div id="txt" style="float: right"></div>
+        <h1>Exmouth View Hotel</h1>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="link1(1717867).html">Room</a></li>
+            <li><a href="link2(1718377).html">Amenities</a></li>
+            <li><a href="link3(1712711).html">Contact</a></li>
+        </ul>
+    </div>
+    <!--image slider-->
+    <section>
+        <div class="slider">
+            <div class="slide-viewer">
+                <div class="slide-group">
+                    <div class="slide slide-1">
+                        <img src="images/Hotel 014.jpg" />
+                    </div>
+                    <div class="slide slide-2">
+                        <img src="images/EVH.jpg" />
+                    </div>
+                    <div class="slide slide-3">
+                        <img src="images/lobby.webp" />
+                    </div>
+                </div>
+            </div>
+            <div class="slide-buttons"></div>
+            <!--slide button bottom center-->
+        </div>
+    </section>
+
+
+    <div class="all">
+
+        <div class="explore">
+            <!--explore container-->
+            <h1 style="text-align: center">Explore</h1>
+            <div class="row">
+                <div class="col" style="background-color:#aaa;">
+                    <p style="font-size: 20px"><a href="#hotel">Hotel Guest</a></p>
+                </div>
+                <div class="col" style="background-color:#bbb;">
+                    <p style="font-size: 20px"><a href="#bar">Restaurant and Bar</a></p>
+
+                </div>
+                <div class="col" style="background-color:#ccc;">
+                    <p style="font-size: 20px"><a href="#attraction">Local Attraction</a></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="date">
+            <!--datepicker jquery ui-->
+            <div class="size">
+                <p>Check-In: <input type="text" id="datepicker"></p>
+                <p>Check-Out: <input type="text" id="datepicker2"></p>
+                <input type="submit" value="Book Now">
+                <!--submit button-->
+            </div>
+        </div>
+
+
+
+
+        <!--<div class="interestingplaces">
+            <img src="images/golf.png" alt="Jungle journey adventure golf" width="200" height="200">
+            <img src="images/torquay-museum.jpg" alt="Torquay museum" width="200" height="200" id="img">
+            <img src="images/the-vestibule-chamber.jpg" alt="The-vestibule-chamber" width="200" height="200">
+            <img src="images/babbacombe-model-village.jpg" alt="The-vestibule-chamber" width="200" height="200">
+
+        </div>-->
+    </div>
+    <!--first container width 100%-->
+    <div class="container1">
+        <h2 id="hotel">Hotel Guest</h2>
+        <div class="part1">
+            <!--image in the container-->
+            <img src="images/Lounge%202.jpg" alt="guest" class="figure">
+        </div>
+        <p>Guest Lounge with tv</p>
+        <p>
+            <font color="blue">Room types</font>
+        </p>
+        <li>Single: room assigned for 1 person</li><br>
+        <li> Double: room assigned to two people</li><br>
+        <li> Queen: room with a queen-sized bed</li><br>
+        <li> King: room with a king-sized bed</li><br>
+
+
+        <p>
+            <font color="blue">Facilities</font>
+        </p>
+        <li> Wifi-Internet</li><br>
+        <li> Flat tv screen</li><br>
+        <li> Bathtub</li><br>
+        <li> Free toiletries</li><br>
+        <li> Air conditioning</li><br>
+    </div>
+
+    <!--second container width 100%-->
+    <div class="container1">
+        <h2 id="bar">Restaurant and Bar</h2>
+        <div class="part1">
+            <!--image in the container-->
+            <img src="images/cafe.webp" alt="guest" class="figure">
+        </div>
+        <p><i>"Fine Dining bar to everyone around the world"</i></p>
+        <p>
+            <font color="blue">Details</font>
+        </p>
+        <p>Contact
+
+            Tel: +44 1803 32730 //+44 1803 329967<br>
+            Email us at : srhs.bookfnb@Exmouthviewhotels.com<br><br>
+
+            Business Hours<br>
+
+            Breakfast : 6.00am - 10.30am<br>
+            Lunch : 12.00noon - 2.30pm<br>
+            Dinner : 6.30pm - 10.30pm<br>
+            A'la Carte :11.00am - 11.00pm
+        </p>
+        <p>
+            <font color="blue">Favourite dish</font>
+        </p>
+        <p>Fish and chip, Classic english breakfast, Roasted chicken</p>
+
+    </div>
+
+    <!--third container width 100%-->
+    <div class="container2">
+        <h2 id="attraction">Local Attraction</h2>
+        <div class="part1">
+            <!--image in the container-->
+            <img src="images/babbacombe-model-village.jpg" alt="attraction" class="figure">
+            <img src="images/railway.jpeg" alt="railway" class="figure">
+        </div>
+        <p>
+            <font color="blue">History of Babbacombe Model Village</font>
+        </p>
+        <p>Babbacombe Model Village is a miniature village and railway located<br> in Babbacombe in Torquay, Devon. The model village was opened <br>in 1963 by Tom Dobbins
+            The site is set on approximately 4 acres (1.6 ha).<br> There are over 400 models along with 1,000 ft (300 m) of model train<br> track in the village. The model village is primarily one town, an entirely<br> fictional one, but many buildings within them are based on UK prototypes<br>
+        </p>
+        <p><b>
+                <font color="blue">Distance from hotel</font>
+            </b></p>
+        <p>0.5km from Exmouth View Hotel</p>
+
+        <p><b>
+                <font color="blue">Contact</font>
+            </b></p>
+        <p>+44 1803 315315</p>
+        <p>
+            <font color="blue">Babbacombe Railway</font>
+        </p>
+        <p>It's well worth going down to Oddicombe beach, but it's quite a climb back up to Babbacombe. Try the Cliff Railway.</p>
+    </div>
+
+    <div class="footer">
+        <!--footer contain social media icons and hotel phone no-->
+        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+        <a href="https://www.google.com" class="fa fa-google"></a>
+        <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+
+        <p style="color:#ffffff;">COPYRIGHT EXMOUTH VIEW HOTEL 2018. ALL RIGTHS RESERVED.&copy; | PHONE NO: +44(1803)327307</p>
+    </div>
+
+
+</body>
+<script src="js/script.js"></script>
+
+</html>

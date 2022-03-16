@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exmouth View Hotel</title>
+
+    <link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Oswald|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body onload="startTime()">
+
+    <div class="header">
+        <!--show time top right page-->
+        <div id="txt" style="float: right"></div>
+        <!--nav bar list-->
+        <h1>Exmouth View Hotel</h1>
+        <ul>
+            <li><a href="main(1713051).html">Home</a></li>
+            <li><a href="link1(1717867).html">Room</a></li>
+            <li><a href="link2(1718377).html">Amenities</a></li>
+            <li><a class="active" href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="all">
+        <div class="weather">
+            <!-- weather widget start --><a target="_blank" href="https://www.booked.net/weather/torquay-2208"><img src="https://w.bookcdn.com/weather/picture/4_2208_1_1_137AE9_280_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=w209&anc_id=69372" alt="booked.net" /></a><!-- weather widget end -->
+        </div>
+        <!--jquery ui tabs-->
+        <div id="tabs-5">
+            <ul><!--tabs list-->
+                <li><a href="#tabs-6">Contact</a></li>
+                <li><a href="#tabs-7">Feedback</a></li>
+            </ul>
+            <div id="tabs-6">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="500" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=St.%20Albans%20Road%2C%20TQ1%203LG%2C%20Torquay%2C%20United%20Kingdom&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de/webdesign-koeln/"></a></div>
+                </div>
+                <div id="address">
+                    <b>Address</b>
+                    <p>St. Albans Road, TQ1 3LG, Torquay, United Kingdom</p>
+                    <b>Telephone:</b>
+                    <p> +44(1803)327307</p>
+                    <b>Fax:</b>
+                    <p>+44(1803)329967</p>
+                    <br><br><br>
+                </div>
+
+            </div>
+            <div id="tabs-7">
+                <div id="forms">
+                    <h2>How we can help you?</h2>
+                    <form>
+                        Name:<br>
+                        <input type="text" name="name" placeholder="Your name..">
+                        <br>
+                        Contact:<br>
+                        <input type="text" name="phone_no" placeholder="Your Phone no..">
+                        <br>
+                        Email:<br>
+                        <input type="text" name="email" placeholder="Your email..">
+                        <br>
+                        Question:<br>
+                        <input type="text" name="question" placeholder="How we can help you?">
+                        <br><br>
+                        <fieldset>
+                            <legend>Give Us Ratings: </legend>
+                            <input type="radio" name="radio-1" id="radio-1">
+                            <label for="radio-1">1 Star</label>
+                            <input type="radio" name="radio-1" id="radio-2">
+                            <label for="radio-2">2 Star</label>
+                            <input type="radio" name="radio-1" id="radio-3">
+                            <label for="radio-3">3 Star</label>
+                            <input type="radio" name="radio-1" id="radio-4">
+                            <label for="radio-4">4 Star</label>
+                            <input type="radio" name="radio-1" id="radio-5">
+                            <label for="radio-5">5 Star</label>
+                            
+                        </fieldset>
+                        <br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    
+        <div class="container"><!--container for 3 column-->
+            <div class="row">
+                <div class="col">
+                    <h3>Reservations</h3>
+                    <img src="images/logo.PNG" alt="logo" height="110">
+                    <p>Book your stay online with immediate confirmation.</p>
+                    <a href="https://www.trivago.com.my/?aDateRange%5Barr%5D=2018-12-24&aDateRange%5Bdep%5D=2018-12-25&aPriceRange%5Bfrom%5D=0&aPriceRange%5Bto%5D=0&iPathId=40853&aGeoCode%5Blat%5D=50.479748&aGeoCode%5Blng%5D=-3.516276&iGeoDistanceItem=519681&aCategoryRange=0%2C1%2C2%2C3%2C4%2C5&aOverallLiking=1%2C2%2C3%2C4%2C5&sOrderBy=relevance%20desc&bTopDealsOnly=false&iRoomType=7&cpt=51968102&iIncludeAll=0&iViewType=0&bIsSeoPage=false&bIsSitemap=false&" target="_blank"><button class="button">Online Reservation</button></a>
+
+                </div>
+                <div class="col">
+                    <h3>Local Attraction</h3>
+                    <img src="images/beach.webp" alt="logo"height="200">
+                    <p>Torquay, 0.2 km from the beach</p>
+                </div>
+                <div class="col">
+                    <h3>Services</h3>
+                    <img src="images/cafe.jpg" alt="logo" height="90">
+                    <p>Start your day with a delicious Breakfast Buffet.</p>
+                    <p>Enjoy our savory Breakfast Buffet (included) and indulge in the breathtaking panoramic view over Lisbon and the Tagus River.</p>
+                    <p>Private parking available and free WIFI Internet</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--footer shows social media icons-->
+    <div class="footer">
+        <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+        <a href="https://www.google.com" class="fa fa-google"></a>
+        <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+
+        <p style="color:#ffffff;">COPYRIGHT EXMOUTH VIEW HOTEL 2018. ALL RIGTHS RESERVED.&copy; | PHONE NO: +44(1803)327307</p>
+    </div>
+
+</body>
+
+<script src="js/script.js"></script>
+
+</html>

@@ -1,0 +1,459 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url("images/sea.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.all {
+    margin: 0 10% 0 10%;
+
+}
+
+/*header*/
+.header {
+    background: linear-gradient(to bottom, rgba(128, 0, 0, 0.9), rgba(128, 0, 128, 0.5));
+    margin-bottom: 4%;
+    padding: 1px;
+    border-bottom: 5px solid rgb(0, 127, 255);
+    color: #ffffff;
+}
+
+/*header for mainpage only*/
+.headermain {
+    background: linear-gradient(to bottom, rgba(128, 0, 0, 0.9), rgba(128, 0, 128, 0.5));
+    margin-bottom: 0;
+    padding: 1px;
+    border-bottom: 5px solid rgb(0, 127, 255);
+    color: #ffffff;
+}
+
+.header h1 {
+    padding-left: 20px;
+}
+
+.headermain h1 {
+    padding-left: 20px;
+}
+
+/*section for image slider in main page*/
+section {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*section for image slider in main page*/
+.slider {
+    max-width: 2000px;
+    margin: 0px auto 30px auto;
+    width: 80%;
+    padding: 1px 10px 5px 10px;
+}
+
+/*section for image slider in main page*/
+.slide-viewer {
+    position: relative;
+    /* needed for IE7 */
+    overflow: hidden;
+    height: 550px;
+}
+
+/*section for image slider in main page*/
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/*section for image slider in main page*/
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+
+/*section for image slider in main page*/
+.slide:first-child {
+    display: block;
+}
+
+/*section for image slider in main page*/
+.slide-buttons {
+    text-align: center;
+}
+
+/*section for image slider in main page*/
+.slide-btn {
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 200%;
+    line-height: 0.5em;
+}
+
+/*section for image slider in main page*/
+.slide-btn.active,
+.slide-btn:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/*date container*/
+.date {
+    color: #ffffff;
+    width: 20%;
+    padding: 10px 10px 5px 10px;
+    margin: 5% 1% 5% 0;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*explore container*/
+.explore {
+    float: right;
+    color: #ffffff;
+    width: 50%;
+    padding: 10px 10px 5px 10px;
+    margin: 0 15% 5% 0;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*size for datepicker*/
+.size {
+    width: 100%;
+}
+
+/*link a*/
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*container1 in main page*/
+.container1 {
+    color: #ffffff;
+    height: 500px;
+    width: 80%;
+    padding: 10px 10% 3% 10%;
+    margin: 0 15% 5% 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+}
+
+/*container2 in main page*/
+.container2 {
+    color: #ffffff;
+    height: 700px;
+    width: 80%;
+    padding: 10px 10% 3% 10%;
+    margin: 0 15% 5% 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+}
+
+/*container for picture in main page*/
+.part1 {
+    width: 400px;
+}
+
+/*picture properties*/
+.figure {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+
+/*font size for paragraph in ctn1 and ctn2 only*/
+.container1,
+.container2 p {
+    font-size: 20px;
+}
+
+/*box for link1(a,b,c)*/
+.box {
+    width: 1000px;
+    background: rgba(0, 0, 0, 0.4);/*make the box transparent for background purpose*/
+    padding: 40px;
+    text-align: center;/*content center*/
+    margin: auto;
+    margin-top: 5%;
+    color: black;/*content such as text in black color*/
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.right {
+    float: right;
+    width: 25%;
+    padding: 1px 10px 5px 10px;
+    margin: 0 1% 5% 0;
+    height: 480px;
+    /* Should be removed. Only for demonstration */
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 8px;
+    overflow: auto;
+}
+
+/*jquery ui tabs*/
+#tabs-5 {
+    font-family: 'Rubik', sans-serif;
+    width: 60%;
+    border-radius: 8px;
+}
+
+/*jquery ui header*/
+.ui-widget-header {
+    background: #333;
+    color: #FFFFFF;
+    /*white text color*/
+}
+
+/*nav bar properties ul li a*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    overflow: hidden;
+    background-color: #333;
+    margin-left: 0%;
+    margin-bottom: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.header ul li a:hover:not(.active) {
+    background-color: #111;
+
+}
+
+/*active navbar change color background for main page only*/
+.headermain .active {
+    background-color: rgb(0, 127, 255);
+}
+
+.header .active {
+    background-color: rgb(0, 127, 255);
+}
+
+/*container in jquery ui tabs contact page*/
+#address {
+    width: 30%;
+}
+
+/*container in jquery ui tabs contact page*/
+#forms {
+    width: 80%;
+}
+
+/*text field in contact page*/
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*submit button contact page feedback tab*/
+input[type=submit] {
+    width: 50%;
+    background-color: darkblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(0, 127, 255);
+}
+
+/*book button main page*/
+.size input[type=submit] {
+    width: 80%;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.size input[type=submit]:hover {
+    background-color: rgb(0, 127, 255);
+}
+
+/*weather widget in contact page*/
+.weather {
+    float: right;
+    margin-right: 2.5%;
+}
+
+/*google maps in contact page show hotel location*/
+.mapouter {
+    float: right;
+}
+
+.facilities {
+    width: 70%;
+    padding: 1px 10px 5px 10px;
+    margin: 5% 1% 5% 0;
+    height: 780px;
+    text-align: left;
+    /* Should be removed. Only for demonstration */
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    overflow: auto;
+}
+
+iframe {
+    width: 100%;
+}
+
+/*responsive image*/
+img {
+    border-radius: 8px;
+    height: auto;
+    width: 100%;
+}
+
+/*col properties*/
+.col {
+    float: left;
+    width: 30%;
+    padding: 1px 10px 5px 10px;
+    margin: 5% 1% 5% 0;
+    height: 390px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    overflow: auto;
+}
+
+/*column in main page class explore*/
+.explore .col {
+    float: left;
+    width: 25%;
+    padding: 0 10px 5px 10px;
+    margin: 0 3% 1% 0;
+    height: 80px;
+    border-radius: 8px;
+    color: black;
+    overflow: hidden;
+}
+
+/*paragraph in class col text center*/
+.col p {
+    text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+h3 {
+    background-color: rgb(0, 127, 255);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+/*button for online reservation */
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(0, 127, 255);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    margin: 5px;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*page footer*/
+.footer {
+    clear: both;
+    background: linear-gradient(to bottom, rgba(128, 0, 0, 0.9), rgba(128, 0, 128, 0.5));
+    min-height: 40px;
+    padding: 40px 5%;
+    position: relative;
+    border-top: 5px solid rgb(0, 127, 255);
+    ;
+}
+
+/*social media icons*/
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
